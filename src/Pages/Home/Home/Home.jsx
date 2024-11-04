@@ -1,11 +1,12 @@
 import Carousel from "../Carousel/Carousel";
+import PopularItems from "../PopularItems/PopularItems";
 
 
 const Home = () => {
     return (
         <div>
             <Carousel></Carousel>
-            <h2>This is home</h2>
+           <PopularItems></PopularItems>
         </div>
     );
 };
