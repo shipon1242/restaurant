@@ -49,7 +49,7 @@ const BookTable = () => {
                                 <div className="label">
                                     <span className="label-text text-lg font-medium text-white">Total people*</span>
                                 </div>
-                                <input type="email" {...register("totalPeople")} required placeholder="total people" className="input input-bordered w-full bg-black  text-white border-white" />
+                                <input type="number" {...register("totalPeople")} required placeholder="total people" className="input input-bordered w-full bg-black  text-white border-white" />
                             </label>
                         </div>
 

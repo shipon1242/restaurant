@@ -62,12 +62,8 @@ const Navbar = () => {
                 </ul>
             </div>
              <div className="navbar-end   ">
-                {/* <div className="lg:hidden">
-                <a className="btn btn-ghost text-xl">
-                  <img className="w-10 h-10" src={logo} alt="" />  <span> Restaurant</span></a>
-                </div> */}
-                {/* dropdown */}
-                <div className="dropdown dropdown-bottom dropdown-end ">
+                
+                <div className="dropdown dropdown-bottom dropdown-end mr-3">
                     <div tabIndex={0} role="button" onClick={toggleDropdown}
                      className="btn btn-ghost  lg:hidden ">
                         <svg
