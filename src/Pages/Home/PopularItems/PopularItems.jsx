@@ -20,9 +20,9 @@ import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 const PopularItems = () => {
 
     return (
-        <div className='relative bg-yellow-100 lg:py-10  lg:px-8'>
-            <img className='absolute w-20 h-20 -left-2 top-32 ' src={chiliImg} alt="" />
-            <div className='space-y-2 ml-6 lg:ml-0 pt-4'>
+        <div className='relative bg-yellow-100 lg:py-10 px-2 lg:px-20'>
+            <img className='hidden lg:block absolute w-20 h-20 -left-2 top-32 ' src={chiliImg} alt="" />
+            <div className='space-y-2 ml-6 lg:ml-0 pt-8 '>
                 <div className='flex items-center gap-1'>
                     <div className='h-3 w-3 bg-red-700 text-lg '></div>
                     <div><h4 className='text-sm text-red-700 font-bold '> Crispy, Every Bite Taste</h4></div>
@@ -31,7 +31,7 @@ const PopularItems = () => {
 
                     <h2 className='text-2xl lg:text-4xl font-bold text-black'> Popular food items</h2>
 
-                    <div className='hidden lg:flex flex-row gap-2  w-20 justify-between mr-14'>
+                    <div className='hidden lg:flex flex-row gap-2  w-20 justify-between mr-8'>
                         <button className='custom-prev-button btn btn-md rounded-full btn-circle bg-white hover:bg-white '> <IoIosArrowBack className='w-6 h-6 text-black hover:text-red-700 ' /></button>
                         <button className='custom-next-button btn bg-white hover:bg-white rounded-full btn-circle '>
                             <IoIosArrowForward className='w-6 h-6 text-black hover:text-red-700' />
@@ -43,7 +43,7 @@ const PopularItems = () => {
             </div>
 
 
-            <div className='lg:py-12 mt-6 mb-4'>
+            <div className='lg:py-8 mt-6 mb-4'>
                 <Swiper
                     slidesPerView={4}
                     spaceBetween={30}

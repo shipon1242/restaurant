@@ -9,7 +9,7 @@ const BookTable = () => {
     };
 
     return (
-        <div className="lg:pl-10 py-16 px-6 lg:px-0" style={{
+        <div className=" py-10 lg:py-16 px-8 lg:px-20 " style={{
             backgroundImage: `url(${blackPlate})`,
             backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'
         }} >

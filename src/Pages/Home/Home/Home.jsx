@@ -7,7 +7,7 @@ import Testimonials from "../Testimonials/Testimonials";
 
 const Home = () => {
     return (
-        <div>
+        <div >
             <Carousel></Carousel>
             <AboutSection></AboutSection>
            <PopularItems></PopularItems>

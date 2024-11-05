@@ -7,10 +7,11 @@ import ExperienceTab from "./ExperienceTab";
 import ContactTab from "./ContactTab";
 import threeChiliImg from "../../../assets/others/treeChili.jpg"
 import chiliWatch from "../../../assets/others/chiliWatch.png"
+import Services from "./Services";
 const AboutSection = () => {
     return (
-        <div className=" relative bg-white  pr-6 py-12 pl-8 ">
-            <img className="absolute w-24 -right-8" src={chiliWatch} alt="" />
+        <div className=" relative bg-white   py-12  px-8 lg:px-20  ">
+            <img className="hidden lg:block lg:absolute w-28 bottom-24 -right-10" src={chiliWatch} alt="" />
             <div className="flex flex-col lg:flex-row gap-10">
                 {/* image */}
                 <div className="lg:w-1/2">
@@ -37,6 +38,7 @@ const AboutSection = () => {
                     </Tabs>
                 </div>
             </div>
+            <Services></Services>
         </div>
     );
 };

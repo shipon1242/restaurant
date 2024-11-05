@@ -5,9 +5,9 @@ import { MdOutlineMailOutline } from "react-icons/md";
 
 const ContactTab = () => {
     return (
-        <div className="space-y-4">
-        <h1 className="text-2xl font-bold text-black uppercase">If you want to know about us <br /> and our food please contact!</h1>
-        <p className="text-black opacity-80">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat facilis quidem ut odio voluptatem minus modi fugit, assumenda provident voluptas. </p>
+        <div className="space-y-3">
+        <h1 className="text-2xl font-bold text-black uppercase">If you want to know about us  and our food please contact!</h1>
+        <p className="text-black opacity-80">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat facilis quidem ut odio voluptatem minus . </p>
         <div className=" lg:flex items-center space-y-1 lg:space-y-0   gap-4 lg:gap-8">
             <YellowButton text="contact us"></YellowButton>
             <div>
