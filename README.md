@@ -1,8 +1,15 @@
-# React + Vite
+# Restaurant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## live link: https://euphonious-druid-e44a5f.netlify.app/
+- used vite
+- used css framework as taiwind,and taiwind framework as daisy ui
+- used react js
+- used carousel from react swiper
+- used react tabs
+- input form as react hook form and its functionaly has been done
+- website has been made desktop and mobile responsive
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
