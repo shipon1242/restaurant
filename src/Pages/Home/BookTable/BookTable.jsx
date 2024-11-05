@@ -13,7 +13,7 @@ const BookTable = () => {
             backgroundImage: `url(${blackPlate})`,
             backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'
         }} >
-            <div className=" space-y-3 lg:space-y-4">
+            <div className=" space-y-2 ">
                 <div className='flex items-center gap-1'>
                     <div className='h-3 w-3 bg-red-700 text-lg '></div>
                     <div><h4 className='text-lg text-red-700 font-bold '> Book Now</h4></div>
@@ -23,7 +23,7 @@ const BookTable = () => {
             </div>
             <div className="flex">
                 <div className="w-full lg:w-1/2   ">
-                    <form onSubmit={handleSubmit(onSubmit)} className="w-full  space-y-4 py-4" >
+                    <form onSubmit={handleSubmit(onSubmit)} className="w-full  space-y-3 py-4" >
                         <div className="md:flex w-full gap-6 ">
                             <label className="form-control w-full ">
                                 <div className="label">
