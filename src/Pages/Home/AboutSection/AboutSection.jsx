@@ -5,9 +5,12 @@ import "./TabsStyle.css"
 import AboutTab from "./AboutTab";
 import ExperienceTab from "./ExperienceTab";
 import ContactTab from "./ContactTab";
+import threeChiliImg from "../../../assets/others/treeChili.jpg"
+import chiliWatch from "../../../assets/others/chiliWatch.png"
 const AboutSection = () => {
     return (
-        <div className="bg-white  pr-6 py-12 pl-8 ">
+        <div className=" relative bg-white  pr-6 py-12 pl-8 ">
+            <img className="absolute w-24 -right-8" src={chiliWatch} alt="" />
             <div className="flex flex-col lg:flex-row gap-10">
                 {/* image */}
                 <div className="lg:w-1/2">

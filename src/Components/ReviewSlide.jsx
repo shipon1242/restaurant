@@ -18,13 +18,13 @@ const ReviewSlide = ({video}) => {
     }
     return (
         <div className="flex flex-col-reverse lg:flex-row lg:mr-10">
-        <div className="w-full lg:w-1/3 bg-orange-400 p-10  ">
+        <div className="w-full lg:w-1/3 bg-orange-400 px-8 pt-8  ">
             <p className="text-black">
                 "Every dish was packed with fresh flavors, and the ambiance was perfect for a night out! The staff was welcoming"
             </p>
-            <div className="flex justify-between items-center mt-10">
+            <div className="flex justify-between items-center mt-6">
                 <div className="text-black">
-                    <h2 className="text-2xl font-semibold"> Khalid Farhan </h2>
+                    <h2 className="text-xl font-semibold"> Khalid Farhan </h2>
                     <p> Uttora ,Dhaka </p>
                 </div>
                 {/* profile image */}
@@ -37,7 +37,7 @@ const ReviewSlide = ({video}) => {
                 </div>
                 
             </div>
-            <div className="w-full h-1 bg-black mt-6"></div>
+            <div className="w-full h-1 bg-black mt-4 mb-4"></div>
         </div>
         <div className="w-full lg:w-3/5  relative ">
             <video  className=" " ref={videoRef} onClick={togglePlayPause} src={video}></video>

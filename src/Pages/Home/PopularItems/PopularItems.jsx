@@ -9,6 +9,8 @@ import burger1 from "../../../assets/popularFoodItems/Cheeseburger1.png"
 import burger2 from "../../../assets/popularFoodItems/burger2.png"
 import pizza1 from "../../../assets/popularFoodItems/pizza1.png"
 import pizza2 from "../../../assets/popularFoodItems/pizza2.jpg"
+import chiliImg from "../../../assets/others/chiliImg.png"
+
 // import frenchFry1 from "../../../assets/popularFoodItems/french fry.jpg"
 import chicken1 from "../../../assets/popularFoodItems/chicken1.png"
 import PopularSlide from '../../../Components/PopularSlide';
@@ -18,7 +20,8 @@ import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 const PopularItems = () => {
 
     return (
-        <div className='bg-yellow-100 lg:py-10  lg:px-8'>
+        <div className='relative bg-yellow-100 lg:py-10  lg:px-8'>
+            <img className='absolute w-20 h-20 -left-2 top-32 ' src={chiliImg} alt="" />
             <div className='space-y-2 ml-6 lg:ml-0 pt-4'>
                 <div className='flex items-center gap-1'>
                     <div className='h-3 w-3 bg-red-700 text-lg '></div>
