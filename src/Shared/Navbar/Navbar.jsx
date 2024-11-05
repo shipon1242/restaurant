@@ -1,6 +1,8 @@
 import { useState } from "react";
 import YellowButton from "../../Components/YellowButton";
 import "../../Shared/sharedBg.css"
+// logo
+ import logo from "../../assets/logo.png"
 
 const Navbar = () => {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -11,11 +13,11 @@ const Navbar = () => {
     };
   
     return (
-        <div className="navbar bg-gradient lg:px-16 text-white">
+        <div className="navbar bg-gradient lg:px-16 text-white z-10 fixed w-11/12 py-4  ">
             <div className="navbar-start">
-                <div className="dropdown">
+                <div className="dropdown ">
                     <div tabIndex={0} role="button" onClick={toggleDropdown}
-                     className="btn btn-ghost lg:hidden ">
+                     className="btn btn-ghost  lg:hidden ">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-5 w-5"
@@ -40,7 +42,8 @@ const Navbar = () => {
                         <li><a>Contact</a></li>
                     </ul>}
                 </div>
-                <a className="btn btn-ghost text-xl">Restaurant</a>
+                <a className="btn btn-ghost text-xl">
+                  <img className="w-10 h-10" src={logo} alt="" />  <span> Restaurant</span></a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

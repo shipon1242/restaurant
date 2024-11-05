@@ -7,7 +7,7 @@ import ExperienceTab from "./ExperienceTab";
 import ContactTab from "./ContactTab";
 const AboutSection = () => {
     return (
-        <div className="bg-white px-6 lg:px-0">
+        <div className="bg-white  pr-6 py-12 pl-8 ">
             <div className="flex flex-col lg:flex-row gap-10">
                 {/* image */}
                 <div className="lg:w-1/2">
