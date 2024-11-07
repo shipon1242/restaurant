@@ -1,6 +1,6 @@
 # Restaurant
 
-## live link: https://euphonious-druid-e44a5f.netlify.app/
+## live link:https://endearing-dango-34df88.netlify.app/
 - used vite
 - used css framework as taiwind,and taiwind framework as daisy ui
 - used react js
